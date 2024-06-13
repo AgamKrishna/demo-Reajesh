@@ -1,0 +1,9 @@
+server:
+  port: 7171
+  servlet:
+    context-path: /PatientApp
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
